@@ -134,16 +134,16 @@ bool cKeyAuthAPI::bStatusKeyAuth(bool bStatus)
 	{
 		bKeepStatusLogged = bStatus;
 		strDataKeyAuth = (KeyAuthApp.response.message);
-		return true;
+		return bKeepStatusLogged;
 	}
 	else
 	{
 		bKeepStatusLogged = bStatus;
 		strDataKeyAuth = (KeyAuthApp.response.message);
-		return false;
+		return bKeepStatusLogged;
 	}
 		
-	
+	return bKeepStatusLogged;
 }
 
 
