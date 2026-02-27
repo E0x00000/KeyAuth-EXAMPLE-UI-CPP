@@ -1,5 +1,36 @@
 # KeyAuth-EXAMPLE-UI
 
+Um projeto financiado individualmente, criado do zero em C++, que possui a mesma funcionalidade da API original do KeyAuth, porém foi desenvolvido para ser mais facilmente modificável e ter uma implementação mais simples.
+Já conta com integração com ImGui (DX11).
+
+Pode ser utilizado diretamente em loaders/painéis de autenticação e não requer instalação adicional.
+
+## Funcionalidades atuais:
+
+* Inicialização da API
+* Login / Registro / Upgrade
+* Autenticação apenas por licença
+* Coleta de informações do usuário
+* Gerenciamento básico de estados
+
+A intenção é, ao longo do tempo, disponibilizar tudo o que existia na API original, mantendo a mesma estrutura, mas de forma mais limpa e adaptável.
+
+* Design mais intuitivo
+* Fácil de adicionar novas funcionalidades
+* Totalmente personalizável
+* Inclui implementações com ImGui e DX11
+
+---
+
+# Próximas tarefas:
+
+* Melhorar estruturas de dados e gerenciamento de estados
+* Refatorar e otimizar o fluxo de respostas
+* Adicionar suporte para download direto de arquivos pela API deles
+* Implementar os recursos restantes da API original
+
+# KeyAuth-EXAMPLE-UI
+
 An individually funded project created from nothing using C++ which has the same functionality as the original KeyAuth API, but has been designed to be more easily modifiable and have a simpler implementation. 
 It already has ImGui (DX11) integrated into it.
 This can be directly utilized in loaders/auth panels and does not require further installation. Present Features:   - API initialize   - Login/Register/Upgrade   - License only authenticated
