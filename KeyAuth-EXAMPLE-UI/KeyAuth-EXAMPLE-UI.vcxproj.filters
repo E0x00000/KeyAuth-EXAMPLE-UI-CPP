@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="KeyAuth-EXAMPLE-UI.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Libraries\ImGui\imgui.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Libraries\ImGui\imgui_demo.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Libraries\ImGui\imgui_draw.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Libraries\ImGui\imgui_tables.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Libraries\ImGui\imgui_widgets.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Libraries\ImGui\backends\imgui_impl_dx11.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Libraries\ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\KeyAuth-API\API.cpp">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDK\Libraries\DX11\Include\audiodefs.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\comdecl.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D2D1.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D2D1Helper.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D2DBaseTypes.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D2Derr.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3d9.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3d9caps.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3d9types.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3D10.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3D10_1.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3D10_1shader.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3D10effect.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3d10misc.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3d10sdklayers.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3D10shader.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3D11.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3D11SDKLayers.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3D11Shader.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3Dcommon.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3Dcompiler.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3DCSX.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3dx9.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3dx9anim.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3dx9core.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3dx9effect.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3dx9math.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3dx9mesh.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3dx9shader.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3dx9shape.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3dx9tex.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3dx9xof.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3DX10.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\d3dx10async.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3DX10core.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3DX10math.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3DX10mesh.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3DX10tex.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3DX11.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3DX11async.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3DX11core.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\D3DX11tex.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\Dcommon.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\dinput.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\dinputd.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\dsconf.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\dsetup.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\dsound.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\DWrite.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\dxdiag.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\DxErr.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\dxfile.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\DXGI.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\DXGIFormat.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\DXGIType.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\dxsdkver.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\gameux.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\PIXPlugin.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\rmxfguid.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\rmxftmpl.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\rpcsal.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\X3DAudio.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\xact3.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\xact3d3.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\xact3wb.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\XAPO.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\XAPOBase.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\XAPOFX.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\XAudio2.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\XAudio2fx.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\XDSP.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\XInput.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\xma2defs.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\DX11\Include\xnamath.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\ImGui\imconfig.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\ImGui\imgui.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\ImGui\imgui_internal.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\ImGui\imstb_rectpack.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\ImGui\imstb_textedit.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\ImGui\imstb_truetype.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\ImGui\backends\imgui_impl_dx11.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Libraries\ImGui\backends\imgui_impl_win32.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\KeyAuth-API\API.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\KeyAuth-API\KeyAuth-SDK\auth.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\KeyAuth-API\KeyAuth-SDK\json.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\KeyAuth-API\KeyAuth-SDK\skStr.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\KeyAuth-API\KeyAuth-SDK\utils.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDK\Libraries\DX11\Include\D3DX_DXGIFormatConvert.inl">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </None>
+    <None Include="SDK\Libraries\DX11\Include\d3dx9math.inl">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </None>
+    <None Include="SDK\Libraries\DX11\Include\D3DX10math.inl">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </None>
+    <None Include="SDK\Libraries\DX11\Include\xnamathconvert.inl">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </None>
+    <None Include="SDK\Libraries\DX11\Include\xnamathmatrix.inl">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </None>
+    <None Include="SDK\Libraries\DX11\Include\xnamathmisc.inl">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </None>
+    <None Include="SDK\Libraries\DX11\Include\xnamathvector.inl">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDK\Libraries\DX11\Lib\d2d1.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\d3d9.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\d3d10.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\d3d10_1.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\d3d11.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\d3dcompiler.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\D3DCSX.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\D3DCSXd.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\d3dx9.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\d3dx9d.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\d3dx10.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\d3dx10d.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\d3dx11.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\d3dx11d.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\d3dxof.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\dinput8.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\dsound.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\dwrite.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\DxErr.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\dxgi.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\dxguid.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\X3DAudio.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\xapobase.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\xapobased.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\XAPOFX.lib" />
+    <Library Include="SDK\Libraries\DX11\Lib\XInput.lib" />
+    <Library Include="SDK\KeyAuth-API\KeyAuth-SDK\library_x64.lib" />
+  </ItemGroup>
+</Project>
