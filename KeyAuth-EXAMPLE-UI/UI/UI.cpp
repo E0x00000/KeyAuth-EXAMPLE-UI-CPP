@@ -36,7 +36,7 @@ void cUISetup::bOverlayMain(HWND hwnd)
 
 void cUISetup::bOverlayLogin(HWND hwnd)
 {
-    ImGui::BeginChild("##LoginChild", ImVec2(vWindowSize.x, vWindowSize.y), false, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar);
+    ImGui::BeginChild("##LoginChild", ImVec2(vWindowSize.x, vWindowSize.y), false, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoMove);
     {
         int PasswordFlags = bShowPassword ? ImGuiInputTextFlags_None : ImGuiInputTextFlags_Password;
         int LicenseFlags = bShowLicense ? ImGuiInputTextFlags_None : ImGuiInputTextFlags_Password;
@@ -93,7 +93,7 @@ void cUISetup::bOverlayLogin(HWND hwnd)
 
 void cUISetup::bOverlayHome(HWND hwnd)
 {
-    ImGui::BeginChild("##LoginChild", ImVec2(vWindowSize.x, vWindowSize.y), false, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar);
+    ImGui::BeginChild("##LoginChild", ImVec2(vWindowSize.x, vWindowSize.y), false, ImGuiWindowFlags_NoTitleBar | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoSavedSettings | ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoScrollbar | ImGuiWindowFlags_NoMove);
     {
 		cAPI.bInfosKeyAuth(cAPI.bKeepStatusLogged);
 
